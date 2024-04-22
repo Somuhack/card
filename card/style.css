@@ -1,0 +1,42 @@
+body{
+   width: 100vw;
+   height: 100vh;
+}
+.img{
+    
+    width: 250px;
+    height: 400px;
+   
+}
+.m{
+   display: flex;
+   justify-content: center;
+}
+.main-contain{
+    position: relative;
+}
+.img-1{
+     position: absolute;
+     top: 150px;
+     transform-origin: bottom right;
+     transform: rotate(10deg);
+     z-index: 3;
+    
+}
+.img-2{
+    position: absolute;
+    top: 150px;
+    transform-origin: bottom right; 
+     transform: rotate(-5deg);
+     z-index: 2;
+    
+}
+.img-3{
+    top: 150px;
+    position: absolute;
+    transform-origin: bottom right; 
+    transform: rotate(-15deg); 
+}
+img:hover{
+    z-index: 10;
+}

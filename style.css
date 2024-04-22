@@ -1,0 +1,142 @@
+body{
+    height: 100vh;
+    width: 100vw;
+   
+ 
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    column-gap: 80px;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 100%;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2rem;
+    list-style: none;
+    flex-wrap: nowrap;
+    font-weight: 600;
+}
+.sign{
+    margin: 15px;
+    padding-right: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:10px;
+    background-color:  rgb(50, 179, 234);
+    border-radius: 35px;
+    border: none;
+    font: .9rem sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.anaunsment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 198, 31);
+    height: 50px;
+    font-weight: 600;
+    gap: 10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.anaunsment> a{
+  text-decoration: none;
+  color: rgb(50, 179, 234);
+  
+}
+.img-size{
+    width: 80px;
+    height: 80px;
+}
+
+.main-cointainer{
+    display: flex;
+    flex-direction: column;
+  /* position: relative;
+  padding-left: 130px;   */
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+}
+main{
+    margin-top: 90px;
+}
+.sec-1{
+    height: 400px;
+    width: 100%;
+}
+
+.img-size{
+    position: relative;
+    top: 120px;
+    left:130px ;
+}
+.baner{
+   position: absolute;
+   right: 30px;
+   bottom: 10px;
+   height: 28rem;
+   width: 32rem;
+}
+.word{
+    position: absolute;
+    top: 380px;
+    left: 130px;
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+.text{
+    position: absolute;
+    top: 520px;
+    left: 130px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    width: 28%;
+}
+.btn{
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-w{
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #ffffff;
+           color:black;
+           }
+.btn:hover .col-w{
+    color: black;
+}
+.m-2{
+    margin-top:2px;
+}
